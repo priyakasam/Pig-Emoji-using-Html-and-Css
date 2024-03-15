@@ -1,0 +1,135 @@
+*
+{
+  /* background-color:rgb(232, 206, 210); */
+}
+.rock-3d-regular {
+    font-family: "Rock 3D", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+    
+  }
+  body{
+    background-image: url("pig.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+  }
+  .heading
+  {
+    background-color: #ffc0cb;
+    border-radius: 75% ;
+    width:600px;
+    position:absolute;
+
+  }
+  h1{
+    margin-top: 30px;
+  }
+.body {
+    margin: 0;
+    
+    
+  }
+  
+.container {
+    display: flex;
+    justify-content: center;
+    margin-left: 510px;
+    margin-top: 100px;
+  }
+  
+.head {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 5px solid black;
+    background: #ffc0cb;
+  }
+  
+.ear {
+    position: absolute;
+    z-index: -1;
+    width: 50px;
+    height: 50px;
+    top: -10px;
+    background: #dd8694;
+    border: 10px solid black;
+    border-radius: 50%;
+  }
+  
+.ear:first-child {
+    left: 10px;
+  }
+  
+  .ear:nth-child(2) {
+    right: 10px;
+  }
+  
+.eye {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+  }
+  .eye:first-child {
+    left: 30px;
+  }
+  
+.eye:last-child {
+    right: 30px;
+  }
+  
+  .pupil {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background: black;
+  }
+  
+.nose {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 60px;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid black;
+    border-radius: 50% 50% 25% 25%;
+    background: #f57187;
+  }
+  
+  .nostril {
+    width: 25%;
+    height: 50%;
+    border-radius: 50%;
+    background:black;
+  }
+.pig1
+{
+  display: flex;
+  
+  
+
+ 
+}
+.pig2
+{
+  display: flex;
+  margin-block-start: 0%;
+  
+}
+.pig3
+{
+ 
+}
